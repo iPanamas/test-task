@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Для проверки реализации через grid в href подключить ./grid-style.css для проверки реализации через flex подключить ./flex-style.css -->
+    <link href="./flex-style.css" rel="stylesheet" type="text/css" />
+    <title>Layout</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__text text">HEADER</p>
+    </header>
+    <nav class="navigation">
+      <p class="navigation__text text">NAVIGATION</p>
+    </nav>
+    <div class="square">
+      <p class="square__text text">SQUARE</p>
+    </div>
+    <section>
+      <div class="wrapper">
+        <div class="content">
+          <p class="content__text text">CONTENT</p>
+        </div>
+        <aside class="sidebar">
+          <p class="sidebar__text text">SIDEBAR</p>
+        </aside>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__text text">FOOTER</p>
+    </footer>
+
+    <!-- Скрипт для вращающегося квадрата -->
+    <script src="./square.js"></script>
+
+    <!-- Скрипт для задач -->
+    <script src="./index.js"></script>
+  </body>
+</html>
